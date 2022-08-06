@@ -31,24 +31,26 @@
 
 <body class="body">
 
-    <header>
+    <header class="header">
 
-        <nav>
-            <div>
-                <a href="#" class="header-nav__link-logo-container">
+        <nav class="header-nav">
 
-                    <img src="./BYU Hawaii.svg" alt="Hawaii-Logo" width="98" height="98">
+            <div class="header-container">
+
+                <a href="#iHero" class="header-nav__link-logo-container">
+
+                    <img src="./BYU Hawaii.svg" alt="Hawaii-Logo" width="98" height="98" class="header-nav__link-logo">
                 </a>
                 
-                <ul>
+                <ul class="header-nav__menu-list-container">
 
 
                     <li>
-                        <a href="#">Projects1</a>
+                        <a href="#iContactInformation" class="header-nav__menu-link">Contact Information</a>
                     </li>
 
                     <li>
-                        <a href="#">Projects2</a>
+                        <a href="#iBackgroundKnowledge" class="header-nav__menu-link">Background knowledege</a>
                     </li>
 
                     <li>
@@ -67,32 +69,38 @@
 
     <main>
 
-        <article>
+        <article id="iHero" class="i-hero">
 
-            <div>
-                <div>
-                    <h1>Web Development Course from scratch</h1>
-                    <h2>Here, you will know the best technologies within this industry</h2>
-                    <p>
+            <div class="i-hero__container">
+                <div class="i-hero__info-container">
+                    <h1 class="i-hero__info-title">Web Development Course from scratch</h1>
+                    <h2 class="i-hero__info-subtitle">Here, you will know the best technologies within this industry</h2>
+                    <p class="i-hero__info-paragraph">
                         Welcome to this amazing webpage for which you will learn the most interesting topics about Web Development
                     </p>
 
-                    <a href="https://www.linkedin.com/mynetwork/"></a>
+                    <a href="https://www.linkedin.com/mynetwork/" class="i-hero__info-link"></a>
                 </div>
+
+                <div class="i-hero__img-container">
+                    <div class="i-hero__img-pro-tech-container">
+                        <img src="./York Antayhua Cortez.JPG" alt="York-Antayhua-Cortez" width="256" height="390" class="i-hero__img-pro">
+                        <figure class="i-hero__img-tech-container">
+                            <img src="./logo-css-3.svg" alt="CSS" width="64" height="64" class="i-hero__img-tech">
+                            <img src="./logo-html-5.svg" alt="HTML" width="64" height="64" class="i-hero__img-tech">
+                            <img src="./logo-javascript.svg" alt="JAVASCRIPT" width="64" height="64" class="i-hero__img-tech">
+                            <img src="./logo-react.svg" alt="REACT" width="64" height="64" class="i-hero__img-tech">
+                        </figure>
+                    </div>
+                </div>
+
             </div>
 
-            <div>
-                <img src="./York Antayhua Cortez.JPG" alt="York-Antayhua-Cortez" width="256" height="390">
-                <figure>
-                    <img src="./logo-css-3.svg" alt="CSS" width="64" height="64">
-                    <img src="./logo-html-5.svg" alt="HTML" width="64" height="64">
-                    <img src="./logo-javascript.svg" alt="JAVASCRIPT" width="64" height="64">
-                    <img src="./logo-react.svg" alt="REACT" width="64" height="64">
-                </figure>
-            </div>
+          
+            
         </article>
 
-        <section>
+        <section id="iContactInformation">
             <div>
                 <h2>Contact Information</h2>
                 <h3>Do not fear to success</h3>
@@ -119,7 +127,7 @@
 
         </section>
 
-        <section>
+        <section id="iBackgroundKnowledge">
             <div>
                 <h2>Background Knowledge</h2>
 
